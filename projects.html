@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+    <title>KENBAI.</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand me-2" href="index.html">
+                <img src="/assets/img/lgo-1.png" height="45" alt="KENBAI Logo" loading="lazy" style="margin-top: 0;" />
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- <li class="nav-item fs-bold">
+                        <a class="nav-link" href="#">KENBAI.</a>
+                    </li> -->
+                </ul>
+                <!-- Left links -->
+                <div class=" navbar-nav d-flex align-items-center">
+                    <a href="about.html"><button type="button" class=" btn btn-light fs-6 px-3 me-2 text-capitalize"
+                            onclick="scrollToAbout()">
+                            About
+                        </button></a>
+                    <a href="index.html#services"><button type="button"
+                            class="btn btn-light fs-6 px-3 me-2 text-capitalize" onclick="scrollToServices()">
+                            Services
+                        </button></a>
+                    <button type="button" class="btn btn-light active fs-6 px-3 me-2 text-capitalize"
+                        onclick="scrollToProjects()">
+                        Projects
+                    </button>
+                    <a href="index.html#testimonials"><button type="button"
+                            class="btn btn-light fs-6 px-3 me-2 text-capitalize" onclick="scrollToTestimonials()">
+                            Testimonials
+                        </button></a>
+                    <a href="#contact"><button type="button" class="btn btn-light fs-6 px-3 me-2 text-capitalize"
+                            onclick="scrollToContact()">
+                            Contact Us
+                        </button></a>
+                    <a class="btn btn-dark px-3 me-2" href="https://github.com/KemasLazuardi" role="button"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- project section -->
+    <section id="projects" class="p-5 bg-white">
+        <div>
+            <div class=" pt-5 text-center">
+                <h1 class=" fw-bold">Projects</h1>
+                <p class="text-center">These are some of the projects that we did for our clients.</p>
+            </div>
+            <div class="pb-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">UNXPLND</h5>
+                                <p class="card-text text-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident inventore,
+                                    vitae
+                                    ex voluptatibus quas est illum laboriosam blanditiis neque?
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nisi
+                                    aut, totam cum voluptatem ab?</p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show
+                                    that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">UNXPLND</h5>
+                                <p class="card-text text-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident inventore,
+                                    vitae
+                                    ex voluptatibus quas est illum laboriosam blanditiis neque?
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nisi
+                                    aut, totam cum voluptatem ab?</p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show
+                                    that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">UNXPLND</h5>
+                                <p class="card-text text-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident inventore,
+                                    vitae
+                                    ex voluptatibus quas est illum laboriosam blanditiis neque?
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nisi
+                                    aut, totam cum voluptatem ab?</p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/assets/img/modern-browser-mockup-1.png" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show
+                                    that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small><a href="#" class="text-dark fw-bold">Visit Site <img
+                                            src="/assets/vector/arrow-right.svg"></a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project section -->
+
+
+    <!-- Footer -->
+    <footer id="contact" class="text-center text-lg-start text-muted pt-5" style="background-color: #D9D9D9;">
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <img class="text-uppercase fw-bold mb-4" src="/assets/img/lgo-1.png" height="55" alt="">
+                        <p>
+                            KENBAI Studio is a Yogyakarta-based website maker that offers comprehensive services to
+                            create visually stunning and user-friendly websites for businesses and individuals.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Menu Links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">About Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Projects</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Our Social Media
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset"> <i class="fab fa-instagram"></i>&nbsp; &nbsp; Kenbaistd</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"> <i class="fab fa-linkedin"></i>&nbsp; &nbsp; LinkedIn</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"> <i class="fab fa-github"></i>&nbsp; &nbsp; Github</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"> <i class="fab fa-twitter"></i>&nbsp; &nbsp; Twitter</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3 text-secondary"></i> Yogyakarta, Indonesia</p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            kenbai_studio@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3 text-secondary"></i> +62 99999999</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-4 " style="background-color: #222E44;">
+            © 2023 Copyright:
+            <a class="text-white fw-bold" href="https://github.com/KemasLazuardi">KemasLazuardi</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- icons -->
+    <script>
+        feather.replace()
+    </script>
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+</body>
+
+</html>
